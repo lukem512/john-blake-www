@@ -1,0 +1,32 @@
+html, p {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.brand {
+  font-family: 'Dancing Script', cursive;
+}
+
+header, main, footer {
+  padding: 0 !important;
+}
+
+header {
+  margin-top: var(--spacing);
+  border-bottom: 2px solid var(--card-border-color);
+}
+
+a.active {
+  font-weight: 500;
+}
+
+.grid {
+  padding-bottom: var(--spacing);
+}
+
+.grid:first-of-type {
+  padding-top: var(--spacing);
+}
