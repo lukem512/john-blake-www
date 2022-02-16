@@ -1,13 +1,8 @@
-html, p {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-}
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Dancing Script', cursive;
-}
 
 .brand {
-  font-family: 'Dancing Script', cursive;
+  font-family: var(--font-family-cursive);
+  font-size: 30px;
 }
 
 header, main, footer {
@@ -29,4 +24,43 @@ a.active {
 
 .grid:first-of-type {
   padding-top: var(--spacing);
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left, .right {
+  float: none;
+}
+
+img.portrait {
+  width: 250px;
+  height: 250px;
+  background-color: var(--primary);
+  border-radius: var(--border-radius);
+  margin: 0 auto var(--spacing) auto;
+}
+
+@media (max-width: 576px) {
+  [role=button] {
+    margin: var(--spacing);
+    width: calc(100% - 2* var(--spacing));
+  }
+}
+
+@media (min-width: 576px) {
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  img.portrait {
+    margin: 0 0 var(--spacing) var(--spacing);
+  }
 }
