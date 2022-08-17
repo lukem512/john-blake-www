@@ -2246,7 +2246,7 @@ nav ul:last-of-type {
 nav li {
   display: inline-block;
   margin: 0;
-  padding: var(--spacing) calc(var(--spacing) * 0.5);
+  padding: var(--spacing) calc(var(--spacing));
 }
 nav li > *,
 nav li > input:not([type=checkbox]):not([type=radio]) {
