@@ -38,6 +38,7 @@ a.active {
 
 img.portrait {
   width: 250px;
+  height: auto;
   background-color: var(--primary);
   border-radius: var(--border-radius);
   margin: 0 auto var(--spacing) auto;
